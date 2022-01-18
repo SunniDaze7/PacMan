@@ -29,4 +29,10 @@
 .pac-man {
     background-color: yellow;
     border-radius: 50%;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.ghost-lair{
+    background-color: lightgray;
 }
