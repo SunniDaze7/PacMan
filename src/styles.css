@@ -36,3 +36,28 @@
 .ghost-lair{
     background-color: lightgray;
 }
+
+.pinky{
+background-color: pink;
+border: 0px;
+}
+
+.blinky{
+background-color: rgb(248, 71, 71);
+border: 0px;
+}
+
+.inky{
+background-color: aquamarine;
+border: 0px;
+}
+
+.clyde{
+background-color: rgb(250, 203, 116);
+border: 0px;
+}
+
+.scared-ghost{
+background-color: blue;
+border: 0px;
+}
