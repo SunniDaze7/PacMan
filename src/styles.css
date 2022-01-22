@@ -17,20 +17,13 @@
     box-sizing: border-box;
 }
 
-.wall {
-    background-color: lightblue;
-}
-
 .power-pellet {
     background-color: lightgreen;
     border-radius: 10px;
 }
 
-.pac-man {
-    background-color: yellow;
-    border-radius: 50%;
-    border: 1px solid white;
-    box-sizing: border-box;
+.wall {
+    background-color: lightblue;
 }
 
 .ghost-lair{
@@ -58,6 +51,16 @@ border: 0px;
 }
 
 .scared-ghost{
-background-color: blue;
-border: 0px;
+    background-color: blue;
+    border: 0px;
+    }
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.power-pellet {
+    background-color: lightgreen;
+    border-radius: 10px;
 }
