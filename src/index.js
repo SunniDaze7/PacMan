@@ -114,13 +114,14 @@ function movePacman(e){
             !squares[pacmanCurrentIndex + width].classList.contains("ghost-lair")) 
             pacmanCurrentIndex +=width
             break
+
     }
 
     squares[pacmanCurrentIndex].classList.add('pac-man')
 
     pacDotEaten()
     powerPelletEaten()
-    checkforGameOver()    
+    checkForGameOver()    
     checkForWin()
 
 }
@@ -222,7 +223,7 @@ function checkForGameOver() {
 
   //win!
   function checkForWin() {
-    if (score === 214) {
+    if (score === 224) {
       ghosts.forEach(ghost => clearInterval(ghost.timerId))
       document.removeEventListener('keyup', movePacman)
       setTimeout(function(){ alert("You have WON!"); }, 500)
